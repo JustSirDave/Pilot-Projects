@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey"],
+            "responses": ["Hello!", "Hi there!", "Hey! How can I assist you?"]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": ["how are you", "how's it going", "how do you do"],
+            "responses": ["I'm here and ready to assist you!", "Doing great! Thanks for asking.", "All systems go!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name", "who are you", "your name"],
+            "responses": ["I’m your friendly assistant!", "You can call me Chatbot.", "I’m here to help, no name needed!"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["weather", "what's the weather", "tell me about the weather"],
+            "responses": ["I'm not connected to live data, but it’s a beautiful day for learning!", "Wish I could see outside, but I'll imagine it's sunny!", "I'm guessing it's tech-weather today!"]
+        },
+        {
+            "tag": "favorite_color",
+            "patterns": ["what's your favorite color", "favorite color", "color you like"],
+            "responses": ["I love blue; it's calming, like my programming.", "Red—it's bold and energetic!", "Green, like the source code I run on!"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "exit", "goodbye"],
+            "responses": ["Goodbye! It was a pleasure chatting with you.", "Take care! Hope to chat again soon.", "Farewell! Have a wonderful day!"]
+        }
+    ]
+}
