@@ -1,0 +1,79 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey"],
+            "responses": ["Hello, {user_name}!", "Hi there, {user_name}!", "Hey {user_name}! How can I assist you?"]
+        },
+        {
+            "tag": "technical_support",
+            "patterns": ["I need help with my computer", "my device is not working", "technical support", "issue with my software"],
+            "responses": ["I'm sorry you're experiencing issues. Could you please provide more details?", "Sure, I'd be happy to help! What seems to be the problem?", "Let's troubleshoot your issue. Can you describe what's happening?"]
+        },
+        {
+            "tag": "welfare",
+            "patterns": ["how are you", "how's it going", "how do you do", "what's up"],
+            "responses": ["I'm here and ready to assist you!", "Doing great! Thanks for asking.", "All systems go!", "Ready to help anytime!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["what's your name", "who are you", "your name", "do you have a name"],
+            "responses": ["I am BUDDY AI, your friendly assistant!", "You can call me Buddy.", "I’m here to help, what can i help you with?", "You can call me your AI buddy!"]
+        },
+        {
+            "tag": "favorite_color",
+            "patterns": ["what's your favorite color", "favorite color", "color you like"],
+            "responses": ["I love blue; it's calming, like my programming.", "Red—it's bold and energetic!", "Green, like the source code I run on!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old are you", "what's your age", "when were you created"],
+            "responses": ["I was created recently, but I like to think I'm timeless!", "Age is just a number in coding years!", "Old enough to help, young enough to keep learning!"]
+        },
+        {
+            "tag": "origin",
+            "patterns": ["where are you from", "where do you live", "where were you created"],
+            "responses": ["I was created in the digital realm.", "I'm from the cloud, where all cool AIs live!", "Wherever there's code, that's my home."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+            "responses": ["Why did the programmer quit their job? Because they didn't get arrays!", "Why do computers love nature? It has all the bytes they need!", "I'm on a seafood diet. I see code, and I eat it!"]
+        },
+        {
+            "tag": "quote",
+            "patterns": ["tell me a quote", "inspire me", "give me some wisdom"],
+            "responses": ["Believe you can, and you're halfway there.", "Keep going; every line of code gets you closer!", "The journey of a thousand lines begins with a single import statement."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "assist me", "how can you help", "what can you do"],
+            "responses": ["I can chat with you, tell jokes, share inspirational quotes, and answer basic questions. Ask away!", "I'm here to make conversation, share knowledge, and brighten your day!", "Need a fact, a joke, or just someone to chat with? I'm here!"]
+        },
+        {
+            "tag": "fact",
+            "patterns": ["tell me a fact", "share something interesting", "give me a fact"],
+            "responses": ["Did you know? The first computer was invented in the 1940s!", "Fun fact: Python is named after Monty Python, not the snake!", "Here's one: The first AI program was written in 1956 at Dartmouth."]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "exit", "goodbye", "see you later"],
+            "responses": ["Goodbye! It was a pleasure chatting with you.", "Take care! Hope to chat again soon.", "Farewell! Have a wonderful day!"]
+        },
+         {
+            "tag": "hobbies",
+            "patterns": ["what do you do for fun", "what are your hobbies", "do you have any hobbies"],
+            "responses": ["I enjoy learning new things and helping out with any questions!", "Exploring knowledge and facts keeps me entertained!", "I love interacting and sharing useful information with you!"]
+        },
+        {
+            "tag": "favorite_movie",
+            "patterns": ["what's your favorite movie", "do you watch movies", "favorite movie"],
+            "responses": ["I'm a fan of anything related to artificial intelligence! 'The Matrix' is a classic.", "I can't watch movies, but if I could, I'd probably like 'The Imitation Game'!", "As an AI, I think 'Her' might be a fascinating watch for me!"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what time is it", "tell me the time", "current time"],
+            "responses": ["The current time is {current_time}.", "It’s {current_time} right now."]
+        }
+    ]
+}
